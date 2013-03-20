@@ -3,6 +3,7 @@ source 'http://rubygems.org'
 	gem 'heroku'
 	gem 'devise'
 	gem 'simple_form'
+	gem 'paperclip', "~> 3.0"
 	
 group :production do
 	gem 'pg'
@@ -17,6 +18,7 @@ gem 'uglifier', '>= 1.0.3'
 gem 'bootstrap-sass', '~> 2.2.2.0'
 	end
 gem 'jquery-rails'
+
 
 
 
