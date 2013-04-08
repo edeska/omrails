@@ -5,6 +5,7 @@ source 'http://rubygems.org'
 	gem 'simple_form'
 	gem 'paperclip', "~> 3.0"
 	gem 'aws-sdk'
+	gem 'faker'
 	
 group :production do
 	gem 'pg'
